@@ -5,10 +5,12 @@ var licuadora = document.getElementById("blender");
 function controlarLicuadora() {
     if (estadoLicuadora == "apagada") {
         estadoLicuadora = "encendido";
+        hacerBrrBrr();
         licuadora.classList.add("active");
         /* console.log("Esta encendido"); */
     } else {
         estadoLicuadora = "apagada"
+        hacerBrrBrr();
         licuadora.classList.remove("active");
         /* console.log("Esta apagada") */
     }
