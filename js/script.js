@@ -7,6 +7,7 @@ function controlarLicuadora() {
         console.log("Esta encendido");
     } else {
         estadoLicuadora = "apagada"
+        licuadora.classList.remove("active");
         console.log("Esta apagada")
     }
 }
