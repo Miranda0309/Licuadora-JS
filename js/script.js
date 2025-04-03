@@ -1,4 +1,6 @@
 var estadoLicuadora = "apagada";
+var sonidoLicuadora = document.getElementById("blender-sound");
+var botonLicuadora = document.getElementById("blender-button-sound");
 var licuadora = document.getElementById("blender");
 function controlarLicuadora() {
     if (estadoLicuadora == "apagada") {
@@ -11,3 +13,5 @@ function controlarLicuadora() {
         /* console.log("Esta apagada") */
     }
 }
+
+function
